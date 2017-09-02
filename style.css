@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto+Condensed');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+
+}
+body{
+    background: #232525;
+}
+.main {
+    font-family: 'Montserrat', sans-serif;
+	width: 70%;
+	min-height: 100%;
+	color: #CB7135;
+	padding: 30px 0 0 100px;
+	text-align: left;
+}
+h3, p{
+    color: #3F74BA;
+}
+hr{
+    border: 0;
+    border-bottom: 1px solid darkgrey;
+}
+ ul {
+	margin-left: 50px;
+}
+ li{
+	 list-style: none;
+ }
+.answer, .date{
+    color: #A4C151;
+}
+ .date{
+    font-size: 28px;
+}
+ .list{
+	 margin: 0;
+ }
+ .list li {
+	 width: 100px;
+	 text-align: center;
+	 color: darkred;
+	 display: inline-block;
+	 background-color: #A4C151;
+	 margin-right: 5px;
+	 float: left;
+	 position: relative;
+ }
+.subMenu{
+	position: absolute;
+	margin: 0;
+	display: none;
+}
+.subMenu li{
+	width: 100%;
+	text-align: left;
+	padding-left: 10px;
+}
+.withSubMenu:hover .subMenu{
+	display: block;
+
+}
+ .list li:hover{
+	 background-color: darkolivegreen;
+	 cursor: pointer;
+ }
